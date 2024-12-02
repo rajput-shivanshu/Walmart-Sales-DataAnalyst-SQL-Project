@@ -1,3 +1,5 @@
+
+
 # Walmart-Sales-DataAnalyst-SQL-Project
 
 ## About
@@ -58,20 +60,20 @@ This analysis focuses on identifying different client categories, assessing purc
    
   During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
   
-    * Build a database.
+    - Build a database.
     
-    * Create a table and insert the data.
+    - Create a table and insert the data.
     
-    * Select columns that contain null values. Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
+    - Select columns that contain null values. Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
 
 
 2. **_Feature Engineering_**
 
-    * Create a new column called time_of_day to provide insight into sales in the morning, afternoon, and evening. This will help to answer the question of when the majority of sales occur.
+    - Create a new column called time_of_day to provide insight into sales in the morning, afternoon, and evening. This will help to answer the question of when the majority of sales occur.
 
-    * Create a new column called day_name that contains the extracted days of the week on which the transaction occurred (Mon, Tue, Wed, Thur, Fri). This will help you determine which week of the day each branch is busiest.
+    - Create a new column called day_name that contains the extracted days of the week on which the transaction occurred (Mon, Tue, Wed, Thur, Fri). This will help you determine which week of the day each branch is busiest.
 
-    * Create a new column called month_name that contains the extracted months of the year in which the transaction occurred (January, February, and March). Help decide which month of the year generates the most sales and profit.
+    - Create a new column called month_name that contains the extracted months of the year in which the transaction occurred (January, February, and March). Help decide which month of the year generates the most sales and profit.
   
 
 3. **_Exploratory Data Analysis (EDA)_**
