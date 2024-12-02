@@ -38,11 +38,39 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 
 ### **Analysis List:**
 1. Product Analysis
+   
 Analyze the data to acquire insights into various product lines, find the best-performing product lines, and discover areas for improvement in other product lines.
 
 2. Sales Analysis
+   
 The purpose of this analysis is to respond the request about the product's sales trends. The results of this study can help evaluate the effectiveness of each sales technique used in the firm and determine the necessary changes to enhance sales.
 
 3. Customer Analysis
+
 This analysis focuses on identifying different client categories, assessing purchasing behaviors, and determining the profitability from each of these customer segments.
 
+
+
+### **Approach Used**
+
+1. **_Data Wrangling_**
+   
+During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
+
+Build a database.
+    * Create a table and insert the data.
+    * Select columns that contain null values. 
+    * Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
+
+2. **_Feature Engineering_**
+
+    * Create a new column called time_of_day to provide insight into sales in the morning, afternoon, and evening. This will help to answer the question of when the majority of sales occur.
+
+    * Create a new column called day_name that contains the extracted days of the week on which the transaction occurred (Mon, Tue, Wed, Thur, Fri). This will help you determine which week of the day each branch is busiest.
+
+    * Create a new column called month_name that contains the extracted months of the year in which the transaction occurred (January, February, and March). Help decide which month of the year generates the most sales and profit.
+  
+
+3. _**Exploratory Data Analysis (EDA)**_
+  
+Conducting exploratory data analysis is essential to address the project's listed questions and objectives.
