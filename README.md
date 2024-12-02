@@ -59,7 +59,9 @@ This analysis focuses on identifying different client categories, assessing purc
   During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
   
     * Build a database.
+    
     * Create a table and insert the data.
+    
     * Select columns that contain null values. Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
 
 
@@ -78,12 +80,12 @@ This analysis focuses on identifying different client categories, assessing purc
 
 ## Business Questions to Answer
 
-**Generic Questions**
+****Generic Questions****
 
 1. How many distinct cities are present in the dataset?
 2. In which city is each branch situated?
 
-**Product Analysis**
+****Product Analysis****
 
 1. How many distinct product lines are there in the dataset?
 2. What is the most common payment method?
@@ -98,14 +100,16 @@ This analysis focuses on identifying different client categories, assessing purc
 11. What is the most common product line by gender?
 12. What is the average rating of each product line?
 
-**Sales Analysis**
+
+****Sales Analysis****
 
 1. Number of sales made in each time of the day per weekday
 2. Identify the customer type that generates the highest revenue.
 3. Which city has the largest tax percent/ VAT (Value Added Tax)?
 4. Which customer type pays the most VAT?
 
-**Customer Analysis**
+
+****Customer Analysis****
 
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
