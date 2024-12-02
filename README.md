@@ -1,4 +1,5 @@
 
+![Walmart](https://github.com/user-attachments/assets/22497577-0778-4f69-bdb4-24131d0905d2)
 
 # Walmart-Sales-DataAnalyst-SQL-Project
 
