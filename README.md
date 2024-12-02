@@ -1,16 +1,16 @@
 # Walmart-Sales-DataAnalyst-SQL-Project
 
-### **About**
+### About
 
 We are analyzing Walmart's sales data to discover high-performing branches and products, as well as to examine different product sales trends and customer behavior. The main goal is to improve and optimize sales strategies. The dataset used in this experiment comes from the Kaggle Walmart Sales Forecasting Competition.
 
 
-### **Purposes of the Project**
+### Purposes of the Project
 
 The primary purpose of this research is to get insight from Walmart's sales data by investigating the numerous factors that influence sales across branches.
 
 
-### **About Data**
+### About Data
 
 This project's data was acquired via the Kaggle Walmart Sales Forecasting Competition and comprises sales transactions from three Walmart branches in Mandalay, Yangon, and Naypyitaw, respectively. The data consists of 1000 rows and 17 columns:
 
@@ -36,7 +36,7 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 |rating	|Rating|	FLOAT(2, 1)|
 
 
-### **Analysis List:**
+### Analysis List:
 1. Product Analysis
    
 Analyze the data to acquire insights into various product lines, find the best-performing product lines, and discover areas for improvement in other product lines.
@@ -51,12 +51,11 @@ This analysis focuses on identifying different client categories, assessing purc
 
 
 
-### **Approach Used**
+### Approach Used
 
 1. **_Data Wrangling_**
    
   During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
-
      * Build a database.
      * Create a table and insert the data.
      * Select columns that contain null values. Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
@@ -74,13 +73,12 @@ This analysis focuses on identifying different client categories, assessing purc
   
    Conducting exploratory data analysis is essential to address the project's listed questions and objectives.
 
-
 ## Business Questions to Answer
 
 **Generic Questions**
 
-How many distinct cities are present in the dataset?
-In which city is each branch situated?
+1. How many distinct cities are present in the dataset?
+2. In which city is each branch situated?
 
 **Product Analysis**
 
