@@ -38,15 +38,15 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 
 ## Analysis List:
 
-1. Product Analysis
+1. **Product Analysis**
    
 Analyze the data to acquire insights into various product lines, find the best-performing product lines, and discover areas for improvement in other product lines.
 
-2. Sales Analysis
+2. **Sales Analysis**
    
 The purpose of this analysis is to respond the request about the product's sales trends. The results of this study can help evaluate the effectiveness of each sales technique used in the firm and determine the necessary changes to enhance sales.
 
-3. Customer Analysis
+3. **Customer Analysis**
 
 This analysis focuses on identifying different client categories, assessing purchasing behaviors, and determining the profitability from each of these customer segments.
 
