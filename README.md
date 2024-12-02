@@ -34,3 +34,7 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 |gross_margin_pct|	Gross margin percentage|	FLOAT(11, 9)|
 |gross_income	|Gross Income|	DECIMAL(12, 4)|
 |rating	|Rating|	FLOAT(2, 1)|
+
+
+### **Analysis List:***
+
