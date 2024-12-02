@@ -55,12 +55,12 @@ This analysis focuses on identifying different client categories, assessing purc
 
 1. **_Data Wrangling_**
    
-During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
+  During this initial phase, the data is inspected for NULL or missing values, and data replacement algorithms are applied to efficiently address and substitute these values.
 
-Build a database.
-    * Create a table and insert the data.
-    * Select columns that contain null values. 
-    * Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
+    Build a database.
+      * Create a table and insert the data.
+      * Select columns that contain null values. 
+      * Null values are not present in our database because the tables were created with NOT NULL defined for each field, thereby filtering out any null values.
 
 2. **_Feature Engineering_**
 
@@ -73,4 +73,4 @@ Build a database.
 
 3. _**Exploratory Data Analysis (EDA)**_
   
-Conducting exploratory data analysis is essential to address the project's listed questions and objectives.
+  Conducting exploratory data analysis is essential to address the project's listed questions and objectives.
