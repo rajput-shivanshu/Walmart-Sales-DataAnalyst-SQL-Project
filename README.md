@@ -26,7 +26,7 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 |unit_price|	The price of each product	|DECIMAL(10, 2)|
 |quantity|	The amount of the product sold	|INT|
 |VAT	|The amount of tax on the purchase	|FLOAT(6, 4)|
-|total	|The total cost of the purchase	DECIMAL(12, 4)|
+|total	|The total cost of the purchase	| DECIMAL(12, 4)|
 |date	|The date on which the purchase was made|	DATETIME|
 |time|	The time at which the purchase was made|	TIME|
 |payment	|The total amount paid	|DECIMAL(10, 2)|
@@ -36,5 +36,5 @@ This project's data was acquired via the Kaggle Walmart Sales Forecasting Compet
 |rating	|Rating|	FLOAT(2, 1)|
 
 
-### **Analysis List:***
+### **Analysis List:**
 
